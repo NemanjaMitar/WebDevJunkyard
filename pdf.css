@@ -1,0 +1,30 @@
+p {
+    border: 2px solid black;
+    padding: 2px;
+    width:200px;
+    height: 100px;
+    background-color: #5F90DA;
+}
+
+body {
+    border: 2px dashed red;
+}
+p.relativno {
+    position: relative;
+    left: 60px;
+    top:30px;
+
+}
+
+.absolute-container {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    background-color: yellow;
+}
+
+p.absolute {
+    position:absolute;
+    top: 100px;
+    left: 200px;
+}
